@@ -1,8 +1,8 @@
 import React from 'react'
 
-function ButtonDark() {
+function ButtonDark({text}) {
   return (
-    <div>ButtonDark</div>
+    <button className="button__opaque">{text}</button>
   )
 }
 

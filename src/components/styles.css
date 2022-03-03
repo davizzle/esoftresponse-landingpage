@@ -11,10 +11,38 @@
  gap: 0.8rem;
 }
 .button__transparent{
- padding: 1rem;
+ padding: 0.6rem;
  background: none;
  border: none;
  color: white;
  border: 1px solid white;
  border-radius: 4px;
+}
+.button__opaque{
+ padding: 0.6rem;
+ background: #232D44;
+ border: none;
+ color: white;
+ border-radius: 4px;
+}
+
+/* for the header component */
+.header__cont{
+ background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../assets/images/bigscreen2.png') no-repeat center center fixed;
+ object-fit: contain;
+ height: 30rem;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ padding: 7rem 0 0 4rem;
+ overflow: hidden;
+ background-size: cover;
+}
+.header__title{
+ width: 27rem;
+}
+.button__cont{
+ display: flex;
+ gap: 0.4rem;
 }

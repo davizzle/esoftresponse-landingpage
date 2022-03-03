@@ -4,13 +4,14 @@ import ButtonDark from './ButtonDark'
 
 function Header() {
   return (
-    <>
-      <h1>We transform your business by building innovative digital solutions</h1>
-      <div>
-        <ButtonLight />
-        <ButtonDark />
+    <div className="header__cont">
+      <h1 className="header__title">We transform your business by building innovative digital applications</h1>
+      <p>Cost effective. Scalable, Flexible Solutions</p>
+      <div className="button__cont">
+        <ButtonDark text={`Get in touch`}/>
+        <ButtonLight text={`Get in touch`}/>
       </div>
-    </>
+    </div>
   )
 }
 

@@ -1,13 +1,25 @@
 import React from 'react'
+import ButtonLight from './ButtonLight'
+import './styles.css'
+import logo from '../assets/images/eSoft-white 1.png'
 
 function Nav() {
   return (
-    <div>
-     <div>
-      Header
+    <div className="nav__cont">
+     <div className="nav__logo">
+      <img src={logo} alt="esoft logo" />
      </div>
-     <div>
-      TrayIcon
+     <div className="nav__route-cont">
+       <div>Home</div>
+       <div>About</div>
+       <div>Expertise</div>
+       <div>Work</div>
+       <div>Insight</div>
+       <div>Careers</div>
+       <div>Contact</div>
+     </div>
+     <div className="nav__button">
+      <ButtonLight text={`Let's work together`}/>
      </div>
     </div>
   )

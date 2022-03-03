@@ -1,8 +1,10 @@
 import React from 'react'
 
-function ButtonLight() {
+function ButtonLight({text}) {
   return (
-    <div>ButtonLight</div>
+    <div>
+      <button className="button__transparent">{text}</button>
+    </div>
   )
 }
 

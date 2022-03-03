@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonLight from './ButtonLight'
+import ButtonTransparent from './ButtonTransparent'
 import './styles.css'
 import logo from '../assets/images/eSoft-white 1.png'
 
@@ -19,7 +19,7 @@ function Nav() {
        <div>Contact</div>
      </div>
      <div className="nav__button">
-      <ButtonLight text={`Let's work together`}/>
+      <ButtonTransparent text={`Let's work together`}/>
      </div>
     </div>
   )

@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonLight from './ButtonLight'
+import ButtonTransparent from './ButtonTransparent'
 import ButtonDark from './ButtonDark'
 
 function Header() {
@@ -9,7 +9,7 @@ function Header() {
       <p>Cost effective. Scalable, Flexible Solutions</p>
       <div className="button__cont">
         <ButtonDark text={`Get in touch`}/>
-        <ButtonLight text={`Get in touch`}/>
+        <ButtonTransparent text={`Get in touch`}/>
       </div>
     </div>
   )

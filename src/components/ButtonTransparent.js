@@ -1,11 +1,11 @@
 import React from 'react'
 
-function ButtonLight({text}) {
+function ButtonTransparent({text}) {
   return (
-    <div>
+    <>
       <button className="button__transparent">{text}</button>
-    </div>
+    </>
   )
 }
 
-export default ButtonLight
+export default ButtonTransparent

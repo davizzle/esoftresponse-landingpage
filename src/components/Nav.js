@@ -2,7 +2,14 @@ import React from 'react'
 
 function Nav() {
   return (
-    <div>Nav</div>
+    <div>
+     <div>
+      Header
+     </div>
+     <div>
+      TrayIcon
+     </div>
+    </div>
   )
 }
 

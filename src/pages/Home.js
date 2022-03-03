@@ -3,6 +3,7 @@ import Nav from '../components/Nav'
 import Header from '../components/Header'
 import Expertise from '../components/Expertise'
 import Featured from '../components/Featured'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
     <Header/>
     <Expertise/>
     <Featured/>
+    <Footer/>
     </>
   )
 }

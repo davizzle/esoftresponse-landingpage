@@ -45,7 +45,7 @@
  display: flex;
  flex-direction: column;
  gap: 2rem;
- padding: 7rem 0 0 4rem;
+ padding: 10rem 0 0 4rem;
  overflow: hidden;
  background-size: cover;
 }
@@ -56,6 +56,7 @@
  display: flex;
  gap: 0.4rem;
 }
+/* for the ourclients */
 .ourClients__logos{
  display: flex;
  flex-wrap: wrap;
@@ -76,6 +77,8 @@
  gap: 3rem;
  padding: 4rem;
 }
+
+/* for the expertise */
 .expertise__cont{
  background: linear-gradient(180deg, #CF3E55 0%, #131825 76.69%);
  color: white;
@@ -96,6 +99,8 @@
  align-items: center;
  margin-top: 3rem;
 }
+
+/* for the featured */
 .featured__cont{
  display: flex;
  justify-content: space-between;
@@ -112,4 +117,54 @@
 }
 .featured__right>img{
  width: 35rem;
+}
+.featured__mover{
+ float: right;
+ margin-right: 4rem;
+}
+/* for the testimonials */
+.testimonials__cont{
+ background: linear-gradient(180deg, #CF3E55 35.42%, #971227 100%);
+}
+.testimonials__flex{
+ display: flex;
+ flex-direction: column;
+ gap: 2rem;
+ padding: 7rem 7rem 10rem 4rem;
+ color: white;
+ margin-top: 60px;
+}
+.testimonials__text{
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+.testimonials__mover{
+ float: right;
+ margin-right: 4rem;
+ margin-top: -130px;
+}
+.testimonials__text p{
+ width: 80rem;
+}
+/* for the insights */
+.insights__cont{
+ background: white;
+ color: black;
+ padding: 4rem;
+}
+.insights__card{
+ display: flex;
+ flex-direction: column;
+ gap: .5rem;
+ flex: 0.25;
+ justify-content: center;
+ align-items: center;
+}
+.insights__card-cont{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-evenly;
+ align-items: center;
+ margin-top: 3rem;
 }

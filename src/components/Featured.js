@@ -1,6 +1,7 @@
 import React from 'react'
 import ButtonDark from './ButtonDark'
 import phoneinhand from '../assets/images/phoneinhand.png'
+import Mover from './Mover'
 
 function Featured() {
   return (
@@ -17,6 +18,9 @@ function Featured() {
         <div className='featured__right'>
           <img src={phoneinhand} alt='phone in hand' />
         </div>
+      </div>
+      <div className="featured__mover">
+        <Mover/>
       </div>
     </>
   )
